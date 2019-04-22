@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/preodertree.h
+iostream
+-
+stack
+-
+vector
+-
+
+/home/ubuntu/Desktop/bishi/20190422/src/main.cpp
+preodertree.h
+/home/ubuntu/Desktop/bishi/20190422/src/preodertree.h
+
+/home/ubuntu/Desktop/bishi/20190422/src/preodertree.cpp
+preodertree.h
+/home/ubuntu/Desktop/bishi/20190422/src/preodertree.h
+

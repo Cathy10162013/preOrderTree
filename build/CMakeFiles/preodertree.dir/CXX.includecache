@@ -11,14 +11,16 @@ iostream
 -
 stack
 -
+queue
+-
 vector
 -
 
-/home/ubuntu/Desktop/bishi/20190422/src/main.cpp
+/home/ubuntu/Desktop/bishi/20190422/preordertree/src/main.cpp
 preodertree.h
-/home/ubuntu/Desktop/bishi/20190422/src/preodertree.h
+/home/ubuntu/Desktop/bishi/20190422/preordertree/src/preodertree.h
 
-/home/ubuntu/Desktop/bishi/20190422/src/preodertree.cpp
+/home/ubuntu/Desktop/bishi/20190422/preordertree/src/preodertree.cpp
 preodertree.h
-/home/ubuntu/Desktop/bishi/20190422/src/preodertree.h
+/home/ubuntu/Desktop/bishi/20190422/preordertree/src/preodertree.h
 

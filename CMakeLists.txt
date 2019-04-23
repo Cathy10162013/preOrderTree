@@ -4,6 +4,11 @@ cmake_minimum_required(VERSION 3.2)
 # CMakeLists.txt使用C++11标准
 add_definitions(-std=c++11)
 
+# 让cmake支持GDB调试
+SET(CMAKE_BUILD_TYPE "Debug")  
+SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")  
+SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
+
 #2.project name，指定项目的名称，一般和项目的文件夹名称对应
 PROJECT(preodertree)
 

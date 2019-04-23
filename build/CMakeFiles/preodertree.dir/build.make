@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/bishi/20190422
+CMAKE_SOURCE_DIR = /home/ubuntu/Desktop/bishi/20190422/preordertree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Desktop/bishi/20190422/build
+CMAKE_BINARY_DIR = /home/ubuntu/Desktop/bishi/20190422/preordertree/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/preodertree.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/preodertree.dir/flags.make
 
 CMakeFiles/preodertree.dir/src/main.cpp.o: CMakeFiles/preodertree.dir/flags.make
 CMakeFiles/preodertree.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/bishi/20190422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/preodertree.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preodertree.dir/src/main.cpp.o -c /home/ubuntu/Desktop/bishi/20190422/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/bishi/20190422/preordertree/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/preodertree.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preodertree.dir/src/main.cpp.o -c /home/ubuntu/Desktop/bishi/20190422/preordertree/src/main.cpp
 
 CMakeFiles/preodertree.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/preodertree.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/bishi/20190422/src/main.cpp > CMakeFiles/preodertree.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/bishi/20190422/preordertree/src/main.cpp > CMakeFiles/preodertree.dir/src/main.cpp.i
 
 CMakeFiles/preodertree.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/preodertree.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/bishi/20190422/src/main.cpp -o CMakeFiles/preodertree.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/bishi/20190422/preordertree/src/main.cpp -o CMakeFiles/preodertree.dir/src/main.cpp.s
 
 CMakeFiles/preodertree.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/preodertree.dir/src/main.cpp.o.provides.build: CMakeFiles/preodertree
 
 CMakeFiles/preodertree.dir/src/preodertree.cpp.o: CMakeFiles/preodertree.dir/flags.make
 CMakeFiles/preodertree.dir/src/preodertree.cpp.o: ../src/preodertree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/bishi/20190422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/preodertree.dir/src/preodertree.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preodertree.dir/src/preodertree.cpp.o -c /home/ubuntu/Desktop/bishi/20190422/src/preodertree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Desktop/bishi/20190422/preordertree/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/preodertree.dir/src/preodertree.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/preodertree.dir/src/preodertree.cpp.o -c /home/ubuntu/Desktop/bishi/20190422/preordertree/src/preodertree.cpp
 
 CMakeFiles/preodertree.dir/src/preodertree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/preodertree.dir/src/preodertree.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/bishi/20190422/src/preodertree.cpp > CMakeFiles/preodertree.dir/src/preodertree.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Desktop/bishi/20190422/preordertree/src/preodertree.cpp > CMakeFiles/preodertree.dir/src/preodertree.cpp.i
 
 CMakeFiles/preodertree.dir/src/preodertree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/preodertree.dir/src/preodertree.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/bishi/20190422/src/preodertree.cpp -o CMakeFiles/preodertree.dir/src/preodertree.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Desktop/bishi/20190422/preordertree/src/preodertree.cpp -o CMakeFiles/preodertree.dir/src/preodertree.cpp.s
 
 CMakeFiles/preodertree.dir/src/preodertree.cpp.o.requires:
 
@@ -117,7 +117,7 @@ preodertree: CMakeFiles/preodertree.dir/src/main.cpp.o
 preodertree: CMakeFiles/preodertree.dir/src/preodertree.cpp.o
 preodertree: CMakeFiles/preodertree.dir/build.make
 preodertree: CMakeFiles/preodertree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/bishi/20190422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable preodertree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Desktop/bishi/20190422/preordertree/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable preodertree"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/preodertree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/preodertree.dir/clean:
 .PHONY : CMakeFiles/preodertree.dir/clean
 
 CMakeFiles/preodertree.dir/depend:
-	cd /home/ubuntu/Desktop/bishi/20190422/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/bishi/20190422 /home/ubuntu/Desktop/bishi/20190422 /home/ubuntu/Desktop/bishi/20190422/build /home/ubuntu/Desktop/bishi/20190422/build /home/ubuntu/Desktop/bishi/20190422/build/CMakeFiles/preodertree.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Desktop/bishi/20190422/preordertree/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Desktop/bishi/20190422/preordertree /home/ubuntu/Desktop/bishi/20190422/preordertree /home/ubuntu/Desktop/bishi/20190422/preordertree/build /home/ubuntu/Desktop/bishi/20190422/preordertree/build /home/ubuntu/Desktop/bishi/20190422/preordertree/build/CMakeFiles/preodertree.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/preodertree.dir/depend
 

@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/preodertree.dir/src/main.cpp.o CMakeFiles/preodertree.dir/src/preodertree.cpp.o  -o preodertree -rdynamic -lm 
+/usr/bin/c++    -O0 -Wall -g2 -ggdb   CMakeFiles/preodertree.dir/src/main.cpp.o CMakeFiles/preodertree.dir/src/preodertree.cpp.o  -o preodertree -rdynamic -lm 

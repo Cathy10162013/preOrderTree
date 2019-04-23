@@ -1,31 +1,29 @@
 #include "preodertree.h"
-TreeNode* TreeHandler::createTree(vector<int> &nums){
+TreeNode* TreeHandler::createTree(vector<int> &nums){ // 根据数组生成二叉树，如果数值为-1则表示空位
 	TreeNode* root = NULL;
 	if(nums.empty()){
 		return root;
 	}
 	root = new TreeNode(nums[0]);
-	stack<TreeNode*> stk;
-	TreeNode* p = root;
-	for(int i = 1; i < nums.size(); ){
+	queue<TreeNode*> q;
+	q.push(root);
+	for(unsigned int i = 1; i < nums.size(); ){
+		TreeNode* p = q.front();
 		if(nums[i] != -1){
 			TreeNode* l = new TreeNode(nums[i]);
 			p->leftchild = l;
+			q.push(l);
 			i++;
 		}
+		else i++;
 		if(i < nums.size() && nums[i] != -1){
 			TreeNode* r = new TreeNode(nums[i]);
-			stk.push(r);
 			p->rightchild = r;
+			q.push(r);
 			i++;
 		}
-		if(p->leftchild != NULL){
-			p = p->leftchild;
-		}
-		else if(!stk.empty()){
-			p = stk.top();
-			stk.pop();
-		}
+		else i++;
+		q.pop();
 	}
 	return root;
 }
